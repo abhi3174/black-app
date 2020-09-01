@@ -10,6 +10,11 @@ export class AppComponent {
   public title = 'black-app';
   public list: any = [];
 
+  // Services :: Injection :: Singelton :: Short Syntax
+  /*private http: HttpClient;
+  constructor(http: HttpClient) {
+    this.http = http;
+  }*/
   constructor(private http: HttpClient) {}
 
   async makeAjaxCall() {
