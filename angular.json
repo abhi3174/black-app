@@ -144,6 +144,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "black-app"
+    }
+  },
+  "defaultProject": "black-app",
+  "cli": {
+    "analytics": false
+  }
 }
